@@ -3,7 +3,7 @@ function highlights() {
         <div>
           
 
-          <section className="section" id="highlights">
+<section className="section" id="highlights">
   <h2>Highlights</h2>
   <div className="highlight-cards">
     <div className="highlight-card">
