@@ -14,6 +14,9 @@ export default function useNightMode() {
     root.setAttribute('data-theme', theme ? 'light' : 'dark');
   }, [theme]);
 
+
+
+
   const toggleTheme = () => {
     setTheme((prevTheme) => !prevTheme);
   };

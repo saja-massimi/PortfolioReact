@@ -17,7 +17,7 @@ function tetimonials() {
                                 only did she meet deadlines, but she also provided valuable input on
                                 improving the user experience.
                             </p>
-                            <p style={{ color: "#493f75", textAlign: "left" }}>-Aman Aloudat</p>
+                            <p style={{ textAlign: "left" }}>-Aman Aloudat</p>
                         </div>
                     </div>
                     <div className="testimonialCard">
@@ -27,7 +27,7 @@ function tetimonials() {
                                 Saja is a great person to work with, always on time, hardworking and
                                 full of innovative ideas.
                             </p>
-                            <p style={{ color: "#493f75", textAlign: "left" }}>-Hala Shahin</p>
+                            <p style={{ textAlign: "left" }}>-Hala Shahin</p>
                         </div>
                     </div>
                 </div>
