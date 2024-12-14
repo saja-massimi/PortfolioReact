@@ -1,3 +1,5 @@
+import Person from "../assets/person.png";
+
 function tetimonials() {
     return (
         <div>
@@ -7,7 +9,7 @@ function tetimonials() {
                 <h1 style={{ fontSize: "2.5em", color: "#493f75" }}>Testimonials</h1>
                 <div className="testimonialContent">
                     <div className="testimonialCard">
-                        <img src="assets/person.png" alt="" />
+                        <img src={Person} alt="" />
                         <div clas="cardContent">
                             <p>
                                 Working with Saja was an absolute pleasure! Her attention to detail
@@ -19,7 +21,7 @@ function tetimonials() {
                         </div>
                     </div>
                     <div className="testimonialCard">
-                        <img src="assets/person.png" alt="" />
+                        <img src={Person} alt="" />
                         <div clas="cardContent">
                             <p>
                                 Saja is a great person to work with, always on time, hardworking and
