@@ -2,8 +2,12 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import Hero from '../../assets/hero-img.png';
 import Logo from '../../assets/logo.png';
+import UseNightMode from '../../hooks/useNightMode';
+
+
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const { toggleTheme, theme } = UseNightMode();
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -77,6 +81,17 @@ function Navbar() {
                             <li>
                                 <a href="#contact">Contact</a>
                             </li>
+                            <li>
+                            <li>
+  <i
+    onClick={toggleTheme}
+    className={`fa-regular ${theme ? 'fa-moon' : 'fa-sun'}`}
+    aria-label={theme ? 'Activate Dark Mode' : 'Activate Light Mode'}
+    title={theme ? 'Activate Dark Mode' : 'Activate Light Mode'}
+  />
+</li>
+
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -89,7 +104,7 @@ function Navbar() {
                             <button>My Projects</button>
                         </a>
                     </div>
-                    <img src={Hero} alt="hero" />
+                    <img src={Hero} alt="hero" className='hero' />
                 </div>
             </header>
         </>

@@ -1,6 +1,7 @@
 
 #services {
     text-align: center;
+
   }
 
   .servicesContent {
@@ -23,6 +24,7 @@
     justify-content: space-around;
     box-shadow: 1px 1px 10px 1px #dee2e6;
     transition: all 0.7s ease;
+    align-items: center;
   }
   
   .box p {
@@ -58,4 +60,9 @@
   
   }
   
-  
+  @media (max-width: 480px) {
+    #services {
+      padding: 0px;
+      margin-top: 20px;
+    }
+  }

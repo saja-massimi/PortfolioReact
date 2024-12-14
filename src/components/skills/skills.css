@@ -80,13 +80,13 @@
     }
 
     .carousel {
-        width: 250px;
+        width: 150px;
         height: 250px;
         transform: translateZ(-250px); 
     }
 
     .item {
-        width: 190px;
+        width: 290px;
         height: 90px;
         font-size: 0.9rem;
         line-height: 90px;
@@ -107,24 +107,32 @@
 
 @media (max-width: 480px) {
     .carousel-container {
-        width: 100%;
-        perspective: 600px;
+        width: 90%;
+        perspective: 1100px;
     }
 
     .carousel {
-        width: 300px;
-        height: 200px;
+        width: 150px;
+        height: 250px;
     }
 
     .item {
-        width: 70px;
+        width: 120px;
         height: 70px;
         font-size: 0.8rem;
         line-height: 70px;
+        padding: 5px;
     }
 
     .Cbutton {
         font-size: 1.2rem;
         padding: 0.4rem 0.8rem;
+    }
+
+    .carImage {
+        object-fit: contain; 
+        max-width: 40%; 
+        max-height: 40%;
+        
     }
 }
